@@ -266,6 +266,8 @@ h1 {
 
 
 .our-clients-container{
+    background-image:url(/testimonial-section/orbit.png) ;
+    background-size: cover;
     width: 95%;
     height: 400px;
     background-color: #292e47;
@@ -660,6 +662,8 @@ h3{
 
 
     .our-clients-container{
+        background-image:url(/testimonial-section/orbit.png) ;
+        background-size: cover;
         width: 95%;
         height: 400px;
         background-color: #292e47;
@@ -701,12 +705,10 @@ h3{
         top:83%;
     }
     
-        
-    .section-footer{
-        margin-top: 150px;
-    }
+   
 
     .section-footer{
+        margin-top: 150px;
         margin-top: 60px;
         display: flex;
         justify-content: space-between;
@@ -1103,6 +1105,8 @@ h3{
 
     
 .our-clients-container{
+    background-image:url(/testimonial-section/orbit.png) ;
+    background-size: cover;
     width: 90%;
     height: 530px;
     background-color: #292e47;
