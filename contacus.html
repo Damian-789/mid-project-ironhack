@@ -28,45 +28,46 @@
       <div class="contact-us-container">
         <h1 class="contact-us-title">Contact Us</h1>
         <div class="total-information-form-container">
-          <form action="">
-            <div class="full-name-container">
-              <h3 class="text">Full Name*</h3>
+          <div class="full-name-container">
+            <h3 class="text">Full Name*</h3>
+            <input
+              class="email-sector"
+              type="text"
+              placeholder="Enter your full name"
+            />
+          </div>
+          <div class="email-and-phone-container">
+            <div class="Email-container">
+              <h3 class="text">Email</h3>
               <input
+                id="email"
                 class="email-sector"
                 type="text"
-                placeholder="Enter your full name"
+                placeholder="Enter your email"
               />
             </div>
-            <div class="email-and-phone-container">
-              <div class="Email-container">
-                <h3 class="text">Email</h3>
-                <input
-                  class="email-sector"
-                  type="text"
-                  placeholder="Enter your email"
-                />
-              </div>
-              <div class="Phone-container">
-                <h3 class="text">Phone</h3>
-                <input
-                  class="email-sector"
-                  type="text"
-                  placeholder="Enter your phone"
-                />
-              </div>
+            <div class="Phone-container">
+              <h3 class="text">Phone</h3>
+              <input
+                class="phone-sector"
+                type="text"
+                placeholder="Enter your phone"
+              />
             </div>
-            <div class="Message-container">
-              <h3 class="text">Message*</h3>
-              <div class="writing-message-container">
-                <input
-                  class="message-sector"
-                  type="text"
-                  placeholder="Write your message here..."
-                />
-              </div>
+          </div>
+          <div class="Message-container">
+            <h3 class="text">Message*</h3>
+            <div class="writing-message-container">
+              <input
+                class="message-sector"
+                type="text"
+                placeholder="Write your message here..."
+              />
             </div>
-            <button class="submite-button" type="submit">Submit</button>
-          </form>
+          </div>
+          <button onclick="validateForm()" class="submite-button">
+            Submit
+          </button>
         </div>
       </div>
     </div>

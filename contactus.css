@@ -85,6 +85,21 @@ li {
 
 }
 
+.writing-message-container{
+    display: flex;
+    
+}
+
+.phone-sector{
+    height: 57px ;
+    /*width: 97%;*/
+    width: 85%;
+    font-size: 18px;
+    background-color:rgba(107, 112, 141, 0.1);
+    border: 0px;
+    padding: 8px 12px 8px 20px;
+}
+
 .email-sector{
     height: 57px ;
     /*width: 97%;*/
@@ -104,6 +119,7 @@ li {
     background-color:rgba(107, 112, 141, 0.1);
     border: 0px;
     padding: 8px 12px 8px 20px;
+    /*text-align: start;*/
     }
 
     .submite-button{
