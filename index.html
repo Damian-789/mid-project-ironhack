@@ -9,16 +9,40 @@
   </head>
 
   <body>
+
+    <!-- codigo comentado -->
     <header id="header" class="container">
       <a href="#"><img src="/logos/circle.svg" class="logo-circle1" /></a>
 
+      <div class="icono-menu icono-menu-background open-menu">
+        <img src="/logos/icono-menu.svg" id="icono-menu"/>
+      </div>
+
+      
+      <div class="cont-menu close-menu" id="menu">
+        <ul>
+          <li>
+            <a id="home-button" href="http://127.0.0.1:5500/index.html">Home</a>
+          </li>
+          <li><a class="header-proyects-link" href="#">Projects</a></li>
+          <li><a class="header-proyects-link" href="#">Services</a></li>
+        </ul>
+
+
+      </div>
+      
       <ul id="buttons-header">
-        <li><a id="home-button" href="http://127.0.0.1:5500/index.html">Home</a></li>
+        <li>
+          <a id="home-button" href="http://127.0.0.1:5500/index.html">Home</a>
+        </li>
         <li><a class="header-proyects-link" href="#">Projects</a></li>
         <li><a class="header-proyects-link" href="#">Services</a></li>
       </ul>
+    
       <button class="contact-us-buttonA">
-        <a class="contact-us-buttonB" href="http://127.0.0.1:5500/contacus.html">Contact Us</a>
+        <a class="contact-us-buttonB" href="http://127.0.0.1:5500/contacus.html"
+          >Contact Us</a
+        >
       </button>
     </header>
 
@@ -76,7 +100,12 @@
                 <div class="project-description">
                   UI Design & App Development
                 </div>
-                <a href="http://127.0.0.1:5500/hojaproyectos.html" target="_blank" class="link-to-project">Learn more</a>
+                <a
+                  href="http://127.0.0.1:5500/hojaproyectos.html"
+                  target="_blank"
+                  class="link-to-project"
+                  >Learn more</a
+                >
               </div>
             </div>
             <div class="project-card">
@@ -220,7 +249,13 @@
               />
             </form>
           </div>
-          <button onclick="validateSubscription()" class="suscribe-button" type="submit">Suscribe</button>
+          <button
+            onclick="validateSubscription()"
+            class="suscribe-button"
+            type="submit"
+          >
+            Suscribe
+          </button>
         </div>
       </div>
     </article>

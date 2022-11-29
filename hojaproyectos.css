@@ -4,8 +4,10 @@ body {
 }
 
 .container {
-    max-width: 77%;
+    max-width: 83%;
     margin: 0 auto;
+   
+
 }
 
 
@@ -19,6 +21,7 @@ ul {
 
 #header { 
     margin-top: 70px;
+    
     display: flex;
     justify-content: space-between;
 }
@@ -63,8 +66,33 @@ li {
 }
 
 
+.bottle-image{
+    height: 420px;
+    width: 120px;
+    margin-left: 35%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
 
+.beer-title{
+    color: #292e47;
+    width: 85%;
+    margin-left: 3.5%;
+}
 
+.beer-tagline{
+    color: #292e47;
+    width: 85%;
+    margin-left: 3.5%;
+}
+
+.beer-description{
+    color: #292e47;
+    width: 85%;
+    margin-left: 3.5%;
+    margin-bottom: 7%;
+    line-height: 20px;
+}
 
 .Project-1-information{
     display: flex;
@@ -235,6 +263,7 @@ font-size: 17px;
 .questions-help-titule{
     color: #292e47;
     margin-top: 50px;
+    margin-left: 5%;
     
 }
 
@@ -355,6 +384,17 @@ font-size: 17px;
 
 @media (min-width: 550px ) {
 
+
+
+    #header { 
+        margin-top: 70px;
+        margin-left: 4%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
     #buttons-header {
         display: flex;
         justify-content: space-between;
@@ -362,11 +402,44 @@ font-size: 17px;
 
 
 
+        .bottle-image{
+            height: 420px;
+            width: 120px;
+            margin-left: 41%;
+            margin-top: 3%;
+            margin-bottom: 3%;
+        }
+
+        .beer-title{
+            color: #292e47;
+            width: 85%;
+            margin-left: 3.5%;
+            font-size: 55px;
+        }
+
+        .beer-tagline{
+            color: #292e47;
+            width: 85%;
+            margin-left: 3.5%;
+            font-size: 24px;
+        }
+
+        .beer-description{
+            color: #292e47;
+            width: 83%;
+            margin-left: 3.5%;
+            margin-bottom: 7%;
+            margin-right: 15%;
+            font-size: 18px;
+            line-height: 30px;
+            
+        }
 
     .project-heading{
         text-align: left;
         color:#292e47;
-        font-size: 30px;
+        font-size: 35px;
+        margin-left: 2%;
         }
 
 
@@ -459,6 +532,7 @@ font-size: 17px;
     .questions-help-titule{
         color: #292e47;
         margin-top: 50px;
+        margin-left: 3.5%;
         
     }
     
