@@ -1,6 +1,7 @@
 body {
     background-color: #f2f4fc;
     font-family: sans-serif;
+    margin-left: 10%;
 }
 
 h2{
@@ -8,8 +9,8 @@ h2{
 }
 
 .container {
-    max-width: 77%;
-    margin: 0 auto;
+    max-width: 87%;
+    
 }
 
 /*
@@ -138,6 +139,7 @@ h1 {
     margin-bottom: 20px;
     background-color: #072AC8;
     color: white;
+    border: 0;
 
 }
 
@@ -239,7 +241,9 @@ h1 {
 
 
 #recent-projects-container{
-    margin: 0px 30px
+    margin-top: 0px;
+    margin-lef: 30px;
+   
 }
 
 .recent-projects-container{
@@ -309,6 +313,10 @@ h1 {
     margin-bottom: 20px;
 }
 
+.testimonials-container{
+width: 90%;
+margin-left: 7%;
+}
 
 .our-clients-container{
     background-image:url(/testimonial-section/orbit.png) ;
@@ -492,8 +500,9 @@ h3{
 .questions-container{
     background-color: #ffc600;
     height: 450px;
-    width: 97%;
     margin-top: 60px;
+    width: 85%;
+    margin-left: 7%;
        
     }
 
@@ -506,6 +515,7 @@ h3{
 .questions-help-titule{
     color: #292e47;
     margin-top: 50px;
+    text-align: center;
     
 }
 
@@ -515,7 +525,8 @@ h3{
     justify-content:center ;
     justify-items: center;
     margin-bottom: 50px;
-    margin-left: 50px;
+    margin-left: 10px;
+    text-align: center;
 }
 
 
@@ -608,7 +619,7 @@ h3{
     }
 
 
-@media (min-width: 550px ) {
+@media (min-width: 600px ) {
 
 
     .icono-menu{
@@ -657,7 +668,7 @@ h3{
 
     h1 {
         text-align:left;
-        font-size: 60px;
+        font-size: 40px;
         color: #292e47;
         margin-top: 20px;
         margin-bottom: 30px;
@@ -670,14 +681,6 @@ h3{
         margin-top: 100px;
         }
 
-    h1 {
-        text-align:left;
-        font-size: 60px;
-        color: #292e47;
-        margin-top: 20px;
-        margin-bottom: 30px;
-        font-weight: bold;
-    }
 
     .text-hero-description {
         text-align: left;
@@ -787,7 +790,6 @@ h3{
    
 
     .section-footer{
-        margin-top: 150px;
         margin-top: 60px;
         display: flex;
         justify-content: space-between;
@@ -802,6 +804,7 @@ h3{
 .collection-list{
     display: grid;
     grid-template-columns: auto auto;
+    padding-left: 0%;
     }
 
 .project-card{
@@ -883,10 +886,13 @@ h3{
     .Three-service-cards{
         display: flex;
        flex-direction: row;
+       width: 87%;
+       margin-left: 9%;
         }
 
         .service-card{
             margin-bottom: 20px;
+           
         }
         
         .general-container-service{
@@ -898,6 +904,7 @@ h3{
             margin-top: 20px;
             margin-bottom: 10px;
             font-size: 30px;
+            margin-left: 9%;
         }
         
         .service-icon-1-container{
@@ -965,8 +972,10 @@ h3{
 .questions-container{
     background-color: #ffc600;
     height: 450px;
-    width: 97%;
+    width: 87%;
     margin-top: 60px;
+    margin-left: 3%;
+    margin-right: 5%;
        
     }
 
@@ -1061,9 +1070,36 @@ h3{
         display: block;
     }
 
-    .section-footer{
-        margin-top: 200px;
-    }
+
+    .questions-help-titule{
+        color: #292e47;
+        margin-top: 70px;
+        margin-left: 3.5%;
+        font-size: 45px;
+        text-align: center;
+        }
+     
+        .questions-help-subtitule{
+            color: #292e47;
+            font-size: 27px;
+            justify-content:center ;
+            justify-items: center;
+            margin-bottom: 50px;
+            margin-left: 50px;
+            text-align: center;
+        }
+
+        .section-footer{
+        
+            margin-top: 60px;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 70px;
+            margin-left: 1%;
+            margin-right: 1%;
+        }
+
+
 }
 
 /*
@@ -1139,7 +1175,66 @@ h3{
 
 */
 
+
+
+
 @media (min-width: 950px ) {
+
+    
+    h1 {
+        text-align:left;
+        font-size: 60px;
+        color: #292e47;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-weight: bold;
+    }
+
+    #image-card1 {
+        width: 160px;
+        position: absolute;
+        left: 10%;
+        display: block;
+        }
+    
+    #image-card2 {
+        width: 160px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        display: block;
+            }
+
+
+
+
+}
+
+@media (min-width: 950px ) {
+
+
+    h1 {
+        text-align:left;
+        font-size: 60px;
+        color: #292e47;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-weight: bold;
+    }
+
+    
+    #image-card2 {
+        width: 160px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        display: block;
+            }
+
+
+
+
+
     .collection-list{
         display: grid;
         grid-template-columns: auto auto auto;
@@ -1177,6 +1272,36 @@ h3{
              height: 243px;
          }
 
+         .questions-container{
+            background-color: #ffc600;
+            height: 500px;
+            width: 87%;
+            margin-top: 60px;
+            margin-left: 3%;
+            margin-right: 5%;
+               
+            }
+    
+    
+            .questions-buttons-sector{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                margin-left: 270px; 
+                margin-right: 132px;
+                width: 720px;
+                }
+            
+            .envelop-email-container{
+                height: 80px;
+                width: 400px;
+                background-color: white;
+                position: relative;
+                margin-left: 25%;
+                margin-right: 5%;
+            }
+
 }
 
 
@@ -1186,11 +1311,13 @@ h3{
 .our-clients-container{
     background-image:url(/testimonial-section/orbit.png) ;
     background-size: cover;
-    width: 90%;
+    width: 97%;
     height: 530px;
     background-color: #292e47;
     margin-bottom: 30px;
     position: relative;
+    margin-left: 25px;
+    margin-right: 0px;
     }
 
 .testimonial-title-and-text{
@@ -1226,6 +1353,11 @@ h3{
 }
 
 
+.testimonials-container{
+    width: 87%;
+    margin-left: 2%;
+    margin-right: 5%;
+    }
 
 .testimony-image-1{
     position: absolute;

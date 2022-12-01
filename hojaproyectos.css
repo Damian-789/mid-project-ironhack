@@ -249,8 +249,9 @@ font-size: 17px;
 .questions-container{
     background-color: #ffc600;
     height: 450px;
-    width: 97%;
+    width: 90%;
     margin-top: 60px;
+    margin-left: 7%;
        
     }
 
@@ -463,6 +464,53 @@ font-size: 17px;
 
 @media (min-width: 760px ) {
 
+    .questions-buttons-sector{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-left: 100px; 
+        margin-right: 132px;
+        width: 420px;
+        }
+    
+    .envelop-email-container{
+        height: 80px;
+        width: 700px;
+        background-color: white;
+        position: relative;
+        margin-left: 25%;
+        margin-right: 5%;
+    }
+
+    
+    .email-envelope{
+        font-size: 17px;
+        padding-left: 0px;
+        border: 0px;
+        position: absolute;
+        left: 70px;
+        top: 30px;
+        width: 135px;
+           
+    }
+
+
+    .suscribe-button{
+        background-color: #072AC8;
+        color: white;
+        text-decoration: none;
+        height: 80px;
+        width: 246px;
+        font-size: 17px;
+        margin-top: 20px;
+        border: 0px;
+        margin-bottom: 20px;
+        
+        
+    
+    }
+
 
     .project-1-title{
         color:#292e47;
@@ -533,6 +581,7 @@ font-size: 17px;
         color: #292e47;
         margin-top: 50px;
         margin-left: 3.5%;
+        font-size: ;
         
     }
     
@@ -547,23 +596,28 @@ font-size: 17px;
     
     
     
-    
+    /*
     
     .questions-buttons-sector{
         display: flex;
         flex-direction: row;
         align-items: center;
+        justify-content: center;
+        margin-left: 270px; 
+        margin-right: 132px;
+        width: 720px;
         }
-    
+    */
+    /*
     .envelop-email-container{
         height: 80px;
-        width: 246px;
+        width: 400px;
         background-color: white;
         position: relative;
         margin-left: 25%;
         margin-right: 5%;
     }
-    
+    */
     .envelope-image{
         background-image: url(/newsletter/icon/mail.svg);
         background-repeat: no-repeat;
@@ -574,31 +628,8 @@ font-size: 17px;
         top: 25px;
     }
     
-    .email-envelope{
-        font-size: 17px;
-        padding-left: 0px;
-        border: 0px;
-        position: absolute;
-        left: 70px;
-        top: 30px;
-        width: 150px;
-        
-    
-    }
     
     
-    .suscribe-button{
-        background-color: #072AC8;
-        color: white;
-        text-decoration: none;
-        height: 80px;
-        width: 246px;
-        font-size: 17px;
-        margin-top: 20px;
-        border: 0px;
-        margin-bottom: 20px;
-    
-    }
    
 
 }    
@@ -606,12 +637,33 @@ font-size: 17px;
 
 @media (min-width: 900px ) {
 
+
 .section-footer{
     margin-top: 200px;
 }
 }
 
 @media (min-width: 950px ) {
+
+
+    .questions-buttons-sector{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-left: 270px; 
+        margin-right: 132px;
+        width: 520px;
+        }
+    
+    .envelop-email-container{
+        height: 80px;
+        width: 400px;
+        background-color: white;
+        position: relative;
+        margin-left: 25%;
+        margin-right: 5%;
+    }
 
 
 .collection-list{
@@ -622,11 +674,27 @@ font-size: 17px;
 .project-card{
     justify-content: center;
     margin: 10px 20px;
-    
-}
+    }
 
-
+.questions-help-titule{
+    color: #292e47;
+    margin-top: 70px;
+    margin-left: 3.5%;
+    font-size: 45px;
+    text-align: center;
+    }
  
+    .questions-help-subtitule{
+        color: #292e47;
+        font-size: 27px;
+        justify-content:center ;
+        justify-items: center;
+        margin-bottom: 50px;
+        margin-left: 50px;
+        text-align: center;
+    }
+
+
  .projects-section-picture2{
      /* 
      width: 351px;
@@ -660,4 +728,34 @@ font-size: 17px;
         width: 100%;
     }
 
+
+    .questions-container{
+        background-color: #ffc600;
+        height: 500px;
+        width: 93%;
+        margin-top: 60px;
+        margin-left: 3%;
+           
+        }
+
+
+        .questions-buttons-sector{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-left: 270px; 
+            margin-right: 132px;
+            width: 720px;
+            }
+        
+        .envelop-email-container{
+            height: 80px;
+            width: 400px;
+            background-color: white;
+            position: relative;
+            margin-left: 25%;
+            margin-right: 5%;
+        }
+    
 }
