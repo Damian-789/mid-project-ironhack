@@ -29,7 +29,7 @@ const messageValue = document.querySelector(".message-sector").value
 
 console.log (emailValue, phoneValue, messageValue)
     if (!emailValue.includes("@") || validateNumber(phoneValue) === false ||  messageValue.length > 240) {
-        return alert("Chequear la información escrita o el largo del mensaje (no debe ser mayor a los 240 caracteres"); 
+        return alert("Chequear la información escrita o el largo del mensaje (no debe ser mayor a los 240 caracteres)"); 
     }
     else {
             return alert("su mensaje ha sido enviado") 
